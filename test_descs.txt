@@ -1,0 +1,42 @@
+1.  Input to check bad cd. No arguments are passed to cd.
+2.  2 arguments are passed to cd.
+3.  ls with a bad directory name.
+4.  Input to run misc. commands.
+5.  Tries to exit with an argument. Should throw an error.
+6.  Try running a shell script without setting path.
+7.  Set path, run a shell script. Overwrite path and then try running the script again.
+8.  Redirection with no output file specified.
+9.  Redirection with multiple output files.
+10. Redirection with multiple '>'
+11. Normal redirection.
+12. Input to check bad redirection. Contains no command before '>'.
+13. Input file is valid and empty. But shell is invoked in batch mode with 2 files (with same file 13.in used twice)
+14. Shell is invoked with a bad batch file.
+15. Tests command with variable whitespace.
+16. Command only contains &
+17. Parallel command contains & at the end
+18. Basic test of running parallel commands.
+19. Parallel commands with no space between command and '&'
+20. Redirection and Parallel commands combined
+21. Empty commands
+22. Test to check that commands are not executed serially
+
+// Piping
+1. | at beginning and end of line
+2. multiple | without commands between
+3. regular piping
+4. | and redirection
+5. | and &
+6. | and & and <>
+
+// cat
+cat with no arguments
+cat with 1 argument
+cat with multiple arguments
+cat with redirection
+cat with parallel
+cat with piping
+cat with all three
+
+// history
+history
